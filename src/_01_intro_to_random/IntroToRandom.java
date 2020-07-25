@@ -5,10 +5,15 @@ package _01_intro_to_random;
 
 import java.util.Random;
 
+import javax.swing.JOptionPane;
+
 public class IntroToRandom {
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {	
 		int num = 0;
+		Random ran = new Random(ran.nextInt());
+		JOptionPane.showInputDialog(ran);
+		
+		
 		
 		//3   Now to make num random. 
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()
